@@ -2,26 +2,72 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Nascentsoulsoft</title>
+  <title>NascentSoulSoft - Innovative Apps for a Digital World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="NascentSoulSoft 官方网站 - 我们打造简洁、可靠、注重隐私的移动应用。" />
+  <meta property="og:title" content="NascentSoulSoft" />
+  <meta property="og:description" content="简洁 · 可靠 · 注重隐私的移动应用。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.nascentsoulsoft.shop/" />
   <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-         margin:0;padding:40px;line-height:1.6}
-    .card{max-width:720px;margin:auto;padding:24px;border:1px solid #eee;border-radius:12px}
-    h1{margin:0 0 8px} small{color:#666}
-    ul{padding-left:18px}
+    :root { --bg:#0b0f14; --card:#121822; --fg:#e8eef5; --muted:#a6b0c3; --brand:#4da3ff; --brand2:#7ef0d4; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'PingFang SC','Microsoft Yahei',sans-serif;background:linear-gradient(120deg,var(--bg),#0f1520);color:var(--fg)}
+    a{color:inherit;text-decoration:none} .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .logo{display:flex;align-items:center;gap:10px;font-weight:700}
+    .logo-badge{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--brand2))}
+    nav a{margin-left:18px;color:var(--muted)} nav a.active, nav a:hover{color:var(--fg)}
+    .hero{display:grid;grid-template-columns:1.1fr 0.9fr;gap:28px;align-items:center;padding:32px 0}
+    .hero-card{background:radial-gradient(90% 120% at 0% 0%,#162233,transparent),var(--card);border:1px solid #1e2736;border-radius:20px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .title{font-size:36px;line-height:1.2;margin:0 0 10px}
+    .subtitle{color:var(--muted);margin:0 0 16px}
+    .cta{display:flex;gap:12px;margin-top:12px}
+    .btn{padding:10px 16px;border-radius:12px;border:1px solid #263247;background:#172233;color:#dbe7ff}
+    .btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#07121c;border:none;font-weight:600}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .app{background:var(--card);border:1px solid #1e2736;border-radius:16px;padding:18px}
+    .app h3{margin:0 0 6px} .app p{margin:0;color:var(--muted)}
+    footer{margin-top:34px;padding:18px 0;color:#8b95a7;border-top:1px solid #1e2736}
+    @media(max-width:880px){ .hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr} }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Nascentsoulsoft</h1>
-    <small>Placeholder page for Google Play / AdMob verifications.</small>
-    <p>这是我的应用官网占位页。以下是必需链接：</p>
-    <ul>
-      <li><a href="/app-ads.txt">app-ads.txt</a></li>
-      <li><a href="/privacy.html">Privacy Policy / QR Scanner 隐私政策</a></li>
-      <li><a href="/privacy-policy-privatecamera.html">Privacy Policy / Private Camera 隐私政策</a></li>
-    </ul>
+  <div class="container">
+    <header>
+      <div class="logo"><span class="logo-badge"></span> NascentSoulSoft</div>
+      <nav>
+        <a href="/index.html" class="active">Home</a>
+        <a href="/apps.html">Apps</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <h1 class="title">Innovative Apps for a Digital World</h1>
+        <p class="subtitle">我们专注于打造简洁、可靠、注重隐私的移动应用：二维码扫描、私密相机、语音转文字等。</p>
+        <div class="cta">
+          <a class="btn primary" href="/apps.html">查看应用</a>
+          <a class="btn" href="/privacy-policy.html">隐私政策</a>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="app">
+          <h3>QR Scanner</h3>
+          <p>轻量快速的二维码/条形码识别工具，干净无打扰。</p>
+        </div>
+        <div class="app">
+          <h3>Private Camera</h3>
+          <p>进入需密码、媒体私密存储、仅在应用内可见，专注你的隐私。</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> NascentSoulSoft · <a href="/app-ads.txt">app-ads.txt</a>
+    </footer>
   </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
