@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>Contact - NascentSoulSoft</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="联系 NascentSoulSoft 团队。" />
+  <meta name="description" content="Get in touch with the NascentSoulSoft team." />
   <style>
     :root { --bg:#0b0f14; --card:#121822; --fg:#e8eef5; --muted:#a6b0c3; --brand:#4da3ff; --brand2:#7ef0d4; }
-    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'PingFang SC','Microsoft Yahei',sans-serif;background:linear-gradient(120deg,var(--bg),#0f1520);color:var(--fg)}
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif;background:linear-gradient(120deg,var(--bg),#0f1520);color:var(--fg)}
     a{color:inherit;text-decoration:none} .container{max-width:780px;margin:0 auto;padding:24px}
     header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
     .logo{display:flex;align-items:center;gap:10px;font-weight:700}
@@ -28,42 +28,42 @@
     <header>
       <div class="logo"><span class="logo-badge"></span> NascentSoulSoft</div>
       <nav>
-        <a href="/index.html">Home</a>
-        <a href="/apps.html">Apps</a>
-        <a href="/privacy-policy.html">Privacy Policy</a>
-        <a href="/contact.html" class="active">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="apps.html">Apps</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="contact.html" class="active">Contact</a>
       </nav>
     </header>
 
     <h1>Contact</h1>
     <section class="card">
-      <p class="muted">欢迎联系 NascentSoulSoft，如遇到应用问题或有合作意向，请通过以下方式：</p>
+      <p class="muted">For support or partnerships, reach out via the channels below.</p>
       <p>
-        📧 Email：
+        📧 Email:
         <a href="mailto:hello@nascentsoulsoft.shop">hello@nascentsoulsoft.shop</a>
         <br/>
-        🐙 GitHub：
+        🐙 GitHub:
         <a href="https://github.com/dun38017-504" target="_blank" rel="noopener">dun38017-504</a>
       </p>
-      <form onsubmit="event.preventDefault(); alert('已收到信息，感谢反馈！');">
+      <form onsubmit="event.preventDefault(); alert('Thanks! Your message has been received.');">
         <div class="row">
           <div>
-            <label for="name">姓名 / Name</label>
+            <label for="name">Name</label>
             <input id="name" required />
           </div>
           <div>
-            <label for="email">邮箱 / Email</label>
+            <label for="email">Email</label>
             <input id="email" type="email" required />
           </div>
         </div>
-        <label for="msg">消息 / Message</label>
+        <label for="msg">Message</label>
         <textarea id="msg" required></textarea>
-        <button class="btn" type="submit">发送</button>
+        <button class="btn" type="submit">Send</button>
       </form>
     </section>
 
     <footer>
-      © <span id="y"></span> NascentSoulSoft · <a href="/app-ads.txt">app-ads.txt</a>
+      © <span id="y"></span> NascentSoulSoft · <a href="app-ads.txt">app-ads.txt</a>
     </footer>
   </div>
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
