@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>Privacy Policy - NascentSoulSoft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="NascentSoulSoft 应用隐私政策。" />
+  <style>
+    :root { --bg:#0b0f14; --card:#121822; --fg:#e8eef5; --muted:#a6b0c3; --brand:#4da3ff; --brand2:#7ef0d4; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'PingFang SC','Microsoft Yahei',sans-serif;background:linear-gradient(120deg,var(--bg),#0f1520);color:var(--fg)}
+    a{color:inherit;text-decoration:none} .container{max-width:900px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .logo{display:flex;align-items:center;gap:10px;font-weight:700}
+    .logo-badge{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--brand2))}
+    nav a{margin-left:18px;color:var(--muted)} nav a.active, nav a:hover{color:var(--fg)}
+    h1{font-size:28px;margin:12px 0 16px}
+    .card{background:var(--card);border:1px solid #1e2736;border-radius:16px;padding:20px;line-height:1.65}
+    h2{margin:20px 0 8px;font-size:18px}
+    p,li{color:var(--muted)} ul{padding-left:18px}
+    footer{margin-top:28px;padding:18px 0;color:#8b95a7;border-top:1px solid #1e2736}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><span class="logo-badge"></span> NascentSoulSoft</div>
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/apps.html">Apps</a>
+        <a class="active" href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <h1>Privacy Policy</h1>
+    <article class="card">
+      <p>最后更新日期：<span id="d"></span></p>
+
+      <h2>1. 我们收集什么信息</h2>
+      <ul>
+        <li>仅为提供核心功能所需的最小化数据（例如相机权限用于拍摄、存储权限用于保存媒体）。</li>
+        <li>我们不收集可识别个人身份的信息，除非你主动提供（如联系表单）。</li>
+      </ul>
+
+      <h2>2. 数据使用方式</h2>
+      <ul>
+        <li>数据仅用于实现应用功能或改进体验，不用于其他目的。</li>
+        <li>如使用第三方 SDK（如 Google AdMob），其可能根据其政策独立收集/处理数据。</li>
+      </ul>
+
+      <h2>3. 权限说明（示例）</h2>
+      <ul>
+        <li><strong>Camera：</strong>用于拍摄照片/视频。</li>
+        <li><strong>Read/Write Storage：</strong>用于保存并在应用内访问媒体文件。</li>
+        <li><strong>Internet：</strong>用于网络请求（如更新检查或广告加载）。</li>
+      </ul>
+
+      <h2>4. 数据共享</h2>
+      <p>我们不会出售你的数据。仅在符合法律法规或为实现服务所必需时与第三方共享。</p>
+
+      <h2>5. 数据保留与安全</h2>
+      <p>我们采取合理的技术与管理措施保护数据安全，只在实现目的所需的期限内保留。</p>
+
+      <h2>6. 儿童隐私</h2>
+      <p>我们的应用并非面向 13 岁以下儿童。如你认为我们误收集了儿童数据，请通过联系我们删除。</p>
+
+      <h2>7. 联系我们</h2>
+      <p>如对本政策有疑问，请访问 <a href="/contact.html">Contact</a> 页面联系我们。</p>
+    </article>
+
+    <footer>
+      © <span id="y"></span> NascentSoulSoft · <a href="/app-ads.txt">app-ads.txt</a>
+    </footer>
+  </div>
+  <script>
+    const now=new Date();
+    document.getElementById('y').textContent=now.getFullYear();
+    document.getElementById('d').textContent=now.toISOString().slice(0,10);
+  </script>
+</body>
+</html>
