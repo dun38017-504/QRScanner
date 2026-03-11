@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help &amp; Support – Mystic AI Tarot</title>
+  <style>
+    :root {
+      --bg:    #0d0a1a;
+      --card:  #1a1430;
+      --gold:  #c9a84c;
+      --text:  #e8e0f5;
+      --muted: #8a7fa0;
+      --border:#2e2850;
+      --radius: 16px;
+      --accent: #7c6fc4;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    header {
+      text-align: center;
+      padding: 60px 24px 40px;
+      background: linear-gradient(180deg, #1b0a30 0%, var(--bg) 100%);
+      border-bottom: 1px solid var(--border);
+    }
+    header .moon { font-size: 52px; display: block; margin-bottom: 16px; }
+    header h1 { font-size: 2rem; font-weight: 700; color: var(--gold); }
+    header .subtitle { color: var(--muted); font-size: .9rem; margin-top: 8px; }
+    .contact-bar {
+      max-width: 780px;
+      margin: 36px auto 0;
+      padding: 0 24px;
+    }
+    .contact-card {
+      background: linear-gradient(135deg, #1f1540 0%, #2a1060 100%);
+      border: 1px solid rgba(201,168,76,.35);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; flex-wrap: wrap;
+    }
+    .contact-card .label { color: var(--muted); font-size: .9rem; margin-bottom: 4px; }
+    .contact-card .email { font-size: 1.1rem; font-weight: 600; color: var(--gold); }
+    .contact-card a.btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #c9a84c, #a07830);
+      color: #0d0a1a;
+      font-weight: 700;
+      padding: 12px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: .95rem;
+      white-space: nowrap;
+    }
+    .contact-card a.btn:hover { opacity: .9; }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    h2.section-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+      padding-left: 4px;
+    }
+    .faq-group { margin-bottom: 32px; }
+    details {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+    summary {
+      padding: 18px 22px;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+      display: flex; justify-content: space-between; align-items: center;
+      color: var(--text);
+      font-size: .97rem;
+    }
+    summary::after {
+      content: "＋";
+      color: var(--gold);
+      font-size: 1.1rem;
+      transition: transform .2s;
+      flex-shrink: 0;
+    }
+    details[open] summary::after { transform: rotate(45deg); }
+    details[open] summary { color: var(--gold); }
+    .faq-body {
+      padding: 0 22px 18px;
+      color: var(--muted);
+      font-size: .95rem;
+      line-height: 1.7;
+    }
+    .faq-body a { color: var(--gold); }
+    .faq-body strong { color: var(--text); }
+    .faq-body ol { padding-left: 20px; margin-top: 8px; }
+    .faq-body ol li { margin-bottom: 4px; }
+    footer {
+      text-align: center; padding: 32px 24px;
+      color: var(--muted); font-size: .85rem;
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="moon">🌟</span>
+  <h1>Help &amp; Support</h1>
+  <p class="subtitle">Mystic AI Tarot</p>
+</header>
+
+<div class="contact-bar">
+  <div class="contact-card">
+    <div>
+      <div class="label">Questions? We usually reply within 24 hours.</div>
+      <div class="email">support@YOUR_WEBSITE</div>
+    </div>
+    <a href="mailto:support@YOUR_WEBSITE" class="btn">Send Email</a>
+  </div>
+</div>
+
+<main>
+
+  <div class="faq-group">
+    <h2 class="section-title">Free &amp; Premium</h2>
+
+    <details>
+      <summary>How many free readings do I get?</summary>
+      <div class="faq-body">
+        Free users receive <strong>1 card draw per day</strong> and
+        <strong>3 chat messages per reading session</strong>.
+        The daily count resets at midnight.
+      </div>
+    </details>
+
+    <details>
+      <summary>What do I get with Premium?</summary>
+      <div class="faq-body">
+        Premium unlocks:
+        <ul style="list-style:disc;padding-left:20px;margin-top:8px;">
+          <li>10 card draws per day</li>
+          <li>10 Luna chat messages per session</li>
+        </ul>
+        Choose a Monthly ($6.99/month) or Yearly ($49.99/year) plan in Settings.
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I upgrade to Premium?</summary>
+      <div class="faq-body">
+        Go to <strong>Settings → Unlock Unlimited Luna</strong> inside the app,
+        or tap the lock icon that appears when you reach the free limit in chat.
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I cancel my subscription?</summary>
+      <div class="faq-body">
+        Subscriptions are managed by Apple, not within the app.<br>
+        To cancel:
+        <ol>
+          <li>Open <strong>iPhone Settings</strong></li>
+          <li>Tap your <strong>Apple ID</strong> at the top</li>
+          <li>Tap <strong>Subscriptions</strong></li>
+          <li>Tap <strong>Mystic AI Tarot</strong> → <strong>Cancel Subscription</strong></li>
+        </ol>
+        Cancel at least 24 hours before your renewal date to avoid being charged.
+      </div>
+    </details>
+
+    <details>
+      <summary>My subscription isn't showing after I purchased. What do I do?</summary>
+      <div class="faq-body">
+        Go to <strong>Settings (in app) → Restore Purchases</strong>.
+        This syncs your purchase from the App Store.
+        Make sure you're signed into the same Apple ID used during purchase.
+      </div>
+    </details>
+
+  </div>
+
+  <div class="faq-group">
+    <h2 class="section-title">Cards &amp; Collection</h2>
+
+    <details>
+      <summary>Can I recover deleted cards or history?</summary>
+      <div class="faq-body">
+        Your collection and reading history are stored <strong>locally on your device</strong>
+        and cannot be recovered after deletion or after reinstalling the app.
+        Use <strong>Settings → Clear All Data</strong> only when absolutely sure.
+      </div>
+    </details>
+
+    <details>
+      <summary>What does "Cleanse a Card" do?</summary>
+      <div class="faq-body">
+        The Cleanse ritual releases a card back to the universe — it is permanently
+        removed from your collection. This is intentional and cannot be undone.
+        Think of it as a mindful way to refresh your deck's energy.
+      </div>
+    </details>
+
+    <details>
+      <summary>How are daily draws counted?</summary>
+      <div class="faq-body">
+        Each time you tap <strong>Draw My Card</strong> or <strong>Draw Again</strong>,
+        it counts as one draw. The counter resets at midnight local time.
+      </div>
+    </details>
+
+  </div>
+
+  <div class="faq-group">
+    <h2 class="section-title">Luna &amp; AI</h2>
+
+    <details>
+      <summary>Who is Luna?</summary>
+      <div class="faq-body">
+        Luna is your AI tarot guide powered by Claude (Anthropic) or GPT-4o (OpenAI),
+        depending on your Settings. She is designed for warm, reflective readings —
+        not fortune-telling. Luna is for entertainment and self-reflection only.
+      </div>
+    </details>
+
+    <details>
+      <summary>Luna's response is slow or won't load. What should I do?</summary>
+      <div class="faq-body">
+        Luna requires an active internet connection. Please check your Wi-Fi or mobile data.
+        If the issue persists, it may be a temporary outage from the AI provider.
+        Try again in a few minutes or <a href="mailto:support@YOUR_WEBSITE">contact us</a>.
+      </div>
+    </details>
+
+    <details>
+      <summary>Is my chat with Luna private?</summary>
+      <div class="faq-body">
+        Your card and message context is sent to the AI provider (Anthropic or OpenAI)
+        to generate Luna's response. We do <strong>not</strong> store your conversations on our servers.
+        See our <a href="privacy.html">Privacy Policy</a> for full details.
+      </div>
+    </details>
+
+  </div>
+
+  <div class="faq-group">
+    <h2 class="section-title">Notifications</h2>
+
+    <details>
+      <summary>What notifications does the app send?</summary>
+      <div class="faq-body">
+        If you enable <strong>Morning Reading Reminder</strong> in Settings,
+        you'll receive <strong>one gentle daily notification</strong> at the time you choose.
+        We will never send unsolicited marketing notifications.
+      </div>
+    </details>
+
+    <details>
+      <summary>I enabled reminders but I'm not getting them.</summary>
+      <div class="faq-body">
+        Make sure notifications are allowed in <strong>iPhone Settings → Mystic AI Tarot → Notifications</strong>.
+        If the toggle is on in the app but you still don't see notifications, try
+        toggling it off and on again inside the app to reschedule.
+      </div>
+    </details>
+
+  </div>
+
+  <div class="faq-group">
+    <h2 class="section-title">Other</h2>
+
+    <details>
+      <summary>I found a bug or have a feature suggestion.</summary>
+      <div class="faq-body">
+        We'd love to hear from you!
+        Email <a href="mailto:support@YOUR_WEBSITE">support@YOUR_WEBSITE</a>
+        with a description of the issue or idea. Screenshots are always helpful.
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I rate the app?</summary>
+      <div class="faq-body">
+        Inside the app go to <strong>Settings → Rate on App Store</strong>.
+        Your review means a lot and helps other seekers find Luna. 🌙
+      </div>
+    </details>
+
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2026 Mystic AI Tarot &nbsp;·&nbsp;
+  <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+  <a href="terms.html">Terms of Service</a>
+</footer>
+
+</body>
+</html>
