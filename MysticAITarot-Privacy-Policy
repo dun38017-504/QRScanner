@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Mystic AI Tarot</title>
+  <style>
+    :root {
+      --bg:    #0d0a1a;
+      --card:  #1a1430;
+      --gold:  #c9a84c;
+      --text:  #e8e0f5;
+      --muted: #8a7fa0;
+      --border:#2e2850;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+    header {
+      text-align: center;
+      padding: 60px 24px 40px;
+      background: linear-gradient(180deg, #1b0a30 0%, var(--bg) 100%);
+      border-bottom: 1px solid var(--border);
+    }
+    header .moon { font-size: 52px; display: block; margin-bottom: 16px; }
+    header h1 {
+      font-size: 2rem; font-weight: 700;
+      color: var(--gold); letter-spacing: .5px;
+    }
+    header .subtitle {
+      color: var(--muted); font-size: .9rem; margin-top: 8px;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+    section h2 {
+      font-size: 1.15rem; font-weight: 600;
+      color: var(--gold); margin-bottom: 14px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    section h2::before {
+      content: "✦";
+      font-size: .9rem;
+      opacity: .7;
+    }
+    p { margin-bottom: 12px; color: var(--text); }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 12px;
+    }
+    ul li {
+      padding: 6px 0 6px 22px;
+      position: relative;
+      color: var(--text);
+    }
+    ul li::before {
+      content: "·";
+      position: absolute; left: 8px;
+      color: var(--gold);
+      font-weight: bold;
+    }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .effective {
+      text-align: center;
+      color: var(--muted);
+      font-size: .85rem;
+      margin-bottom: 40px;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      color: var(--muted);
+      font-size: .85rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="moon">🌙</span>
+  <h1>Privacy Policy</h1>
+  <p class="subtitle">Mystic AI Tarot</p>
+</header>
+
+<main>
+
+  <p class="effective">Last updated: March 2026</p>
+
+  <section>
+    <h2>Overview</h2>
+    <p>
+      Mystic AI Tarot ("we", "the app") is committed to protecting your privacy.
+      This policy explains what information is collected, how it is used, and your rights.
+    </p>
+  </section>
+
+  <section>
+    <h2>Data We Collect</h2>
+    <ul>
+      <li>
+        <strong>Reading history &amp; card collection</strong> — stored entirely on your device
+        (iOS UserDefaults / local storage). We do not sync or upload this data to our servers.
+      </li>
+      <li>
+        <strong>AI conversation content</strong> — when you chat with Luna, your message and the
+        drawn card details are sent to Anthropic's Claude API (or OpenAI's API, depending on your
+        setting) to generate a response. This data is processed by the respective provider under
+        their own privacy policies. We do not store these conversations on our own servers.
+      </li>
+      <li>
+        <strong>Subscription status</strong> — managed entirely by Apple's StoreKit. We do not
+        store payment or billing information.
+      </li>
+      <li>No account or registration is required to use the app.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Data We Do NOT Collect</h2>
+    <ul>
+      <li>We do not collect your name, email, location, contacts, or any personally identifiable information.</li>
+      <li>We do not use analytics SDKs, advertising networks, or third-party trackers.</li>
+      <li>We do not sell any data to any party, ever.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Third-Party Services</h2>
+    <ul>
+      <li>
+        <strong>Anthropic Claude API</strong> — AI response generation.
+        Subject to <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's Privacy Policy</a>.
+      </li>
+      <li>
+        <strong>OpenAI API (optional)</strong> — AI response generation if selected.
+        Subject to <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI's Privacy Policy</a>.
+      </li>
+      <li>
+        <strong>Apple App Store / StoreKit</strong> — subscription billing.
+        Subject to <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Children's Privacy</h2>
+    <p>
+      This app is rated 17+ and is not directed at children under 13.
+      We do not knowingly collect information from children.
+    </p>
+  </section>
+
+  <section>
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>
+      All local data (history, collection) can be deleted at any time from
+      <strong>Settings → Data → Clear All History &amp; Collection</strong>.
+      There is no account to delete. Conversation data sent to AI providers
+      is governed by their respective data retention policies.
+    </p>
+  </section>
+
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this policy from time to time. We will post the updated date at
+      the top of this page. Continued use of the app after changes constitutes acceptance
+      of the updated policy.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy? Email us at:
+      <a href="mailto:support@YOUR_WEBSITE">support@YOUR_WEBSITE</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Mystic AI Tarot · <a href="terms.html">Terms of Service</a> · <a href="support.html">Help &amp; Support</a>
+</footer>
+
+</body>
+</html>
