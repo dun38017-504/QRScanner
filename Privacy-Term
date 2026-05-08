@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use – PrivacyCam</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0b1326;
+      color: #bfc9c4;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    header { margin-bottom: 48px; }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #dae2fd;
+      margin-bottom: 8px;
+    }
+    header p { font-size: 0.875rem; color: #bfc9c4; opacity: 0.6; }
+    .badge {
+      display: inline-block;
+      background: #131b2e;
+      border: 1px solid rgba(63,73,69,0.5);
+      color: #3ce36a;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+    section { margin-bottom: 36px; }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #dae2fd;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(63,73,69,0.3);
+    }
+    p { margin-bottom: 12px; font-size: 0.9rem; }
+    ul {
+      margin: 8px 0 12px 20px;
+      font-size: 0.9rem;
+    }
+    ul li { margin-bottom: 6px; }
+    strong { color: #dae2fd; }
+    a { color: #3ce36a; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: #131b2e;
+      border: 1px solid rgba(63,73,69,0.35);
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+    }
+    .warning {
+      background: rgba(147,0,10,0.12);
+      border-left: 3px solid #ffb4ab;
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 12px 0;
+      font-size: 0.9rem;
+      color: #ffb4ab;
+    }
+    .highlight {
+      background: rgba(60,227,106,0.07);
+      border-left: 3px solid #3ce36a;
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 12px 0;
+      font-size: 0.9rem;
+      color: #dae2fd;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(63,73,69,0.3);
+      font-size: 0.78rem;
+      color: #bfc9c4;
+      opacity: 0.4;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <span class="badge">Legal</span>
+      <h1>Terms of Use</h1>
+      <p>Last updated: May 8, 2026</p>
+    </header>
+
+    <div class="card">
+      <p>Please read these Terms of Use carefully before using PrivacyCam. By downloading or using the App, you agree to be bound by these Terms.</p>
+    </div>
+
+    <section>
+      <h2>1. Acceptance of Terms</h2>
+      <p>By downloading, installing, or using PrivacyCam, you confirm that you are at least 13 years of age (or the minimum age required in your jurisdiction) and agree to these Terms. If you do not agree, do not use the App.</p>
+    </section>
+
+    <section>
+      <h2>2. License</h2>
+      <p>Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to use the App on any Apple device you own or control, as permitted by the Apple App Store Terms of Service.</p>
+      <p>You may not:</p>
+      <ul>
+        <li>Copy, modify, or distribute the App or any portion of it</li>
+        <li>Reverse engineer, decompile, or disassemble the App</li>
+        <li>Rent, lease, or sublicense the App</li>
+        <li>Use the App to violate any applicable law or regulation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Acceptable Use</h2>
+      <p>You agree to use PrivacyCam only for lawful purposes. You must not use the App to:</p>
+      <ul>
+        <li>Capture photos or videos of individuals without their knowledge or consent where prohibited by law</li>
+        <li>Violate any person's right to privacy</li>
+        <li>Store, distribute, or create any illegal content, including content that exploits minors</li>
+        <li>Engage in any activity that violates local, national, or international laws</li>
+      </ul>
+      <div class="highlight">
+        <strong>You are solely responsible for all content you capture and store using the App.</strong>
+      </div>
+    </section>
+
+    <section>
+      <h2>4. Self-Destruct / Data Loss</h2>
+      <div class="warning">
+        If you enable the <strong>Advanced Shredding</strong> feature, entering the wrong PIN 5 consecutive times will <strong>permanently and irreversibly delete</strong> all media stored in your vault. We are not responsible for any data loss resulting from this feature.
+      </div>
+      <p>We strongly recommend you understand the consequences of enabling this feature before doing so.</p>
+    </section>
+
+    <section>
+      <h2>5. No Warranty</h2>
+      <p>The App is provided "AS IS" without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+      <p>We do not warrant that the App will be error-free or uninterrupted, that defects will be corrected, or that the App is free of viruses or other harmful components.</p>
+    </section>
+
+    <section>
+      <h2>6. Limitation of Liability</h2>
+      <p>To the maximum extent permitted by applicable law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to:</p>
+      <ul>
+        <li>Loss of data (including vault contents deleted by the self-destruct feature)</li>
+        <li>Loss of profits or revenue</li>
+        <li>Personal injury or property damage</li>
+      </ul>
+      <p>Our total liability to you for any claim arising from use of the App shall not exceed the amount you paid for the App.</p>
+    </section>
+
+    <section>
+      <h2>7. One-Time Purchase</h2>
+      <p>PrivacyCam is a paid app available for a one-time purchase. There are no recurring fees, subscriptions, or in-app purchases. After purchase, you are entitled to all current features of the App. Future major versions may be offered as separate purchases.</p>
+    </section>
+
+    <section>
+      <h2>8. Updates and Changes</h2>
+      <p>We reserve the right to update or modify the App and these Terms at any time. Continued use of the App after any changes constitutes your acceptance of the new Terms. We will update the "Last updated" date at the top of this document when changes are made.</p>
+    </section>
+
+    <section>
+      <h2>9. Termination</h2>
+      <p>These Terms remain in effect until terminated. Your rights under these Terms will terminate automatically without notice if you fail to comply with any provision. Upon termination, you must stop using the App and delete all copies from your devices.</p>
+    </section>
+
+    <section>
+      <h2>10. Governing Law</h2>
+      <p>These Terms shall be governed by and construed in accordance with the laws of <strong>[Your Country/State]</strong>, without regard to its conflict of law provisions.</p>
+    </section>
+
+    <section>
+      <h2>11. App Store Terms</h2>
+      <p>Your use of the App is also subject to Apple's App Store Terms of Service. In the event of any conflict between these Terms and Apple's terms, Apple's terms shall prevail with respect to Apple's responsibilities.</p>
+    </section>
+
+    <section>
+      <h2>12. Contact</h2>
+      <p>If you have questions about these Terms, please contact:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:your-support-email@example.com">your-support-email@example.com</a></li>
+        <li><strong>Website:</strong> <a href="https://yourdomain.com" target="_blank">https://yourdomain.com</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>PrivacyCam &copy; 2026. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
